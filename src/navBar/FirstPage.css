@@ -1,0 +1,123 @@
+.drz-zanto-page {
+    font-family: Arial, sans-serif;
+  
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #EBCBCB;
+ 
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: #000000;
+    padding: 40px;
+    border: 2px solid #000;
+ 
+    font-family: Arial, sans-serif;
+    color:  #000;
+  }
+  
+  .logo .drz {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+
+  }
+  
+  .logo .zanto {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+    
+    
+    
+  }
+  
+  
+  
+  .header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header nav li {
+    margin-left: 20px;
+  }
+  
+  .header nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .header nav a:hover {
+    color: #000000;
+  }
+  
+  .main {
+    display: flex;
+
+    
+  }
+  
+ 
+  
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .hero h1 {
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 100px;
+    text-align: left;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    
+    font-family: 'Inria Serif', serif;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  
+  .hero-image {
+    
+    flex: 1;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .hero-image img {
+    border-radius: 10%;
+    width: 60% !important;
+    height: 400px !important;
+    
+  }
+  
+  
+  
